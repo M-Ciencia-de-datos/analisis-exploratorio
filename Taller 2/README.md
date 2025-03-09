@@ -13,7 +13,7 @@
 La base de datos de "Ciclo de sueño y productividad" analiza los hábitos de sueño y su impacto en la productividad, el estado de ánimo y los niveles de estrés. 
 Se cuentan ocn 5000 registros que abarcan personas entre los 18 y 60 años de edad y sus distintos estilos de vida.
 
-![Data](assets/Data_descrip.png)
+![Data](assets/Data_descrip.PNG)
 
 ## Selección de variables
 El análisis realizado se hizo con el fin de identificar la mejor característica que tuviera una mayor relación con la variable objetivo "Productivity Score", por lo que se empezó una revisión de la base de datos detectando que estamos frente a un problema de clasificación con variables no lineales, y no se cuentan con datos atícos, nulos o faltantes.

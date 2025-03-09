@@ -32,3 +32,5 @@ Al evaluar las variables, se identifica que hay una baja correlación entre ella
 
 - Conclusion de prueba 1
 - conlusion de prueba 3
+
+Se cuenta con una base de datos con variables con relación no lineal y baja correlación entre ellas, por lo que se debe realizar un análisis exahustivo verificando distintos tipos de correlación que sean acordes a estos tipos de datos. 

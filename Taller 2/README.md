@@ -3,7 +3,7 @@
 ## Miembros
 
 - Katherin
-- Heberth
+- Heberth Martinez
 - Diana
 - Natalia
 
@@ -20,3 +20,5 @@
 ## Interpretacion
 
 ## Conclusiones
+
+- Conclusion de prueba 1

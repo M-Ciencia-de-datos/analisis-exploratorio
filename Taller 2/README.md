@@ -9,6 +9,8 @@
 
 ## Introduccion
 
+![correlation](assets/correlation_matrix.png)
+
 ## Seleccion de variables
 
 ## Importancia de las variabless

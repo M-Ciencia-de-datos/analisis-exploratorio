@@ -4,7 +4,7 @@
 
 - Katherin
 - Heberth Martinez
-- Diana
+- Diana Mazuera
 - Natalia
 
 ## Introduccion

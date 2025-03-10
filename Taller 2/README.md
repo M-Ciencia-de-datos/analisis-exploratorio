@@ -28,6 +28,9 @@ En la dinámica actual, donde la tecnología y el ritmo acelerado dominan las ru
 Tomando en cuenta no solo la literatura previa, sino también la correlación de los datos, se determina que las mejores características son "Total Sleep Hours" y "Exercise"
 
 ## Descripcion del código
+<a target="_blank" href="https://colab.research.google.com/github/M-Ciencia-de-datos/analisis-exploratorio/blob/main/Taller%202/notebook.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ### Resumen del Análisis de Datos y Modelado con Regularización
 

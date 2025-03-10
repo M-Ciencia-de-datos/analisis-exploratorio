@@ -9,31 +9,22 @@
 
 ## Introducción
 La base de datos de "Ciclo de sueño y productividad" analiza los hábitos de sueño y su impacto en la productividad, el estado de ánimo y los niveles de estrés. 
-Se cuentan ocn 5000 registros que abarcan personas entre los 18 y 60 años de edad y sus distintos estilos de vida.
+
+Se cuenta con 5000 registros que abarcan personas entre los 18 y 60 años de edad y sus distintos estilos de vida.
+
+A continuación, está la descripción de cada columna de la base de datos:
 
 ![Data](assets/Data_descrip.PNG)
 
 ## Selección de variables
-El análisis realizado se hizo con el fin de identificar la mejor característica que tuviera una mayor relación con la variable objetivo "Productivity Score", por lo que se empezó una revisión de la base de datos detectando que estamos frente a un problema de clasificación con variables no lineales, y no se cuentan con datos atícos, nulos o faltantes.
-
-Al evaluar las variables, se identifica que hay una baja correlación entre ellas. De esta manera, se procedió a realizar una técnica de regularización para determinar cuáles son las mejores características de nuestra base de datos, confirmando que las mejores son "Total Sleep Hours", "Exercise", y "Work Hours". Datos que tienen concordancia con la matriz de correlación.
-
+El análisis realizado se hizo con el fin de identificar la característica que tuviera una mayor relación con la variable objetivo "Productivity Score", por lo que se empezó una revisión de la base de datos detectando que estamos frente a un problema de clasificación con variables no lineales, y no se cuentan con datos atípicos, nulos o faltantes.
 
 ## Importancia de las variables
+Teniendo en cuenta la diferente literatura, se observa que el sueño es fundamental para la salud humana, afectando el bienestar físico y la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes. y por ende la productividad.
 
-## Descripción del código
-![correlation](assets/correlation_matrix.png)
+Después de identificar que las mejores características en nuestra base de datos son "Total Sleep Hours", y "Screen Time Before Bed (mins)", nos centraremos en el análisis de la columna "Total Sleep Hours".
 
-## Interpretación
-## Seleccion de variables
-
-## Importancia de las variables
-Teniendo en cuenta diferente literatura se observa que el sueño es fundamental para la salud humana, afectando el bienestar físico y la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes. y por ende la productividad.
-
-
-Despues de identificar que las mejores características en nuestra base de datos son "Total Sleep Hours", "Exercise", y "Work Hours", nos centraremos en el análisis de la columna "Total Sleep Hours"
-
-## Descripcion del codigo
+## Descripcion del código
 
 ### Resumen del Análisis de Datos y Modelado con Regularización
 
@@ -94,11 +85,14 @@ Se implementa una **regresión logística con ElasticNet y validación cruzada**
 
 ## Interpretacion
 
+*Al evaluar las variables, se identifica que hay una baja correlación entre ellas. De esta manera, se procedió a realizar una técnica de regularización para determinar cuáles son las mejores características de nuestra base de datos, confirmando que las mejores son "Total Sleep Hours", "Exercise", y "Work Hours". Datos que tienen concordancia con la matriz de correlación.
+
+
 ## 📌 Conclusiones
 
-Se cuenta con una base de datos con variables con relación no lineal y baja correlación entre ellas, por lo que se debe realizar un análisis exahustivo verificando distintos tipos de correlación que sean acordes a estos tipos de datos. 
 1️⃣ **La correlación no siempre indica las mejores características**
 
+- Se debe identificar qué tipo de relación hay entre las variables para escoger el método de correlación que más se ajuste a los datos.
 - Aunque las variables con mayor correlación con la variable objetivo pueden ser candidatas para el modelo, **no significa que sean las más relevantes**.
 - La regularización en la regresión logística mostró que otras variables también pueden tener un impacto significativo, incluso si su correlación era menor.
 
@@ -133,4 +127,4 @@ Se cuenta con una base de datos con variables con relación no lineal y baja cor
 - Esto confirma la importancia de **no depender solo de la intuición o la correlación**, sino de probar diferentes enfoques para seleccionar las mejores características.
 
 🔎 **Conclusión general:**  
-El análisis de correlación es un buen punto de partida, pero es fundamental utilizar técnicas como la **regresión con regularización** para validar la importancia real de cada variable. La normalización ayuda a mejorar la estabilidad numérica del modelo, pero no modifica el análisis de importancia de características. **Usar validación cruzada y preprocesamiento adecuado mejora la capacidad del modelo para generalizar a nuevos datos.** 🚀
+El análisis de correlación es un buen punto de partida, pero es fundamental utilizar técnicas como la **regresión con regularización** para validar la importancia real de cada variable. La normalización ayuda a mejorar la estabilidad numérica del modelo, pero no modifica el análisis de importancia de características. **Usar validación cruzada y preprocesamiento adecuado mejora la capacidad del modelo para generalizar su desempeño al contar nuevos datos.** 🚀

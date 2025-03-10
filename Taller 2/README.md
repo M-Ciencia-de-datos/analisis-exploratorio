@@ -18,15 +18,6 @@ El análisis realizado se hizo con el fin de identificar la mejor característic
 
 Al evaluar las variables, se identifica que hay una baja correlación entre ellas. De esta manera, se procedió a realizar una técnica de regularización para determinar cuáles son las mejores características de nuestra base de datos, confirmando que las mejores son "Total Sleep Hours", "Exercise", y "Work Hours". Datos que tienen concordancia con la matriz de correlación.
 
-
-## Importancia de las variables
-
-## Descripción del código
-![correlation](assets/correlation_matrix.png)
-
-## Interpretación
-## Seleccion de variables
-
 ## Importancia de las variables
 Teniendo en cuenta diferente literatura se observa que el sueño es fundamental para la salud humana, afectando el bienestar físico y la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes. y por ende la productividad.
 

@@ -8,7 +8,8 @@
 - Natalia Santamaria
 
 ## Introducción
-La base de datos de "Ciclo de sueño y productividad" analiza los hábitos de sueño y su impacto en la productividad, el estado de ánimo y los niveles de estrés. 
+
+La base de datos de "Ciclo de sueño y productividad" analiza los hábitos de sueño y su impacto en la productividad, el estado de ánimo y los niveles de estrés.
 
 Se cuenta con 5000 registros que abarcan personas entre los 18 y 60 años de edad y sus distintos estilos de vida.
 
@@ -17,12 +18,14 @@ A continuación, está la descripción de cada columna de la base de datos:
 ![Data](assets/Data_descrip.PNG)
 
 ## Selección de variables
+
 El análisis realizado se hizo con el fin de identificar la característica que tuviera una mayor relación con la variable objetivo "Productivity Score", por lo que se empezó una revisión de la base de datos detectando que estamos frente a un problema de clasificación con variables no lineales, y no se cuentan con datos atípicos, nulos o faltantes.
 
 ## Importancia de las variables
-Teniendo en cuenta la diferente literatura, se observa que el sueño es fundamental para la salud humana, afectando el bienestar físico y la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes, y por ende la productividad.
 
-Después de identificar que las mejores características en nuestra base de datos son "Total Sleep Hours", y "Screen Time Before Bed (mins)", nos centraremos en el análisis de la columna "Total Sleep Hours".
+En la dinámica actual, donde la tecnología y el ritmo acelerado dominan las rutinas, es crucial mantener la productividad y el bienestar.Teniendo en cuenta diferente literatura se observa que el sueño y el ejercio son fundamentales para la salud humana, afectando no solo el bienestar físico sino también la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes.
+
+Tomando en cuenta no solo la literatura previa, sino también la correlación de los datos, se determina que las mejores características son "Total Sleep Hours" y "Exercise"
 
 ## Descripcion del código
 
@@ -85,8 +88,7 @@ Se implementa una **regresión logística con ElasticNet y validación cruzada**
 
 ## Interpretacion
 
-*Al evaluar las variables, se identifica que hay una baja correlación entre ellas. De esta manera, se procedió a realizar una técnica de regularización para determinar cuáles son las mejores características de nuestra base de datos, confirmando que las mejores son "Total Sleep Hours", "Exercise", y "Work Hours". Datos que tienen concordancia con la matriz de correlación.
-
+\*Al evaluar las variables, se identifica que hay una baja correlación entre ellas. De esta manera, se procedió a realizar una técnica de regularización para determinar cuáles son las mejores características de nuestra base de datos, confirmando que las mejores son "Total Sleep Hours", "Exercise", y "Work Hours". Datos que tienen concordancia con la matriz de correlación.
 
 ## 📌 Conclusiones
 

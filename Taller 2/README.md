@@ -91,7 +91,14 @@ Se implementa una **regresión logística con ElasticNet y validación cruzada**
 
 ## Interpretacion
 
-\*Al evaluar las variables, se identifica que hay una baja correlación entre ellas. De esta manera, se procedió a realizar una técnica de regularización para determinar cuáles son las mejores características de nuestra base de datos, confirmando que las mejores son "Total Sleep Hours", "Exercise", y "Work Hours". Datos que tienen concordancia con la matriz de correlación.
+El análisis se divide en tres etapas.  La primera etapa, se enfoca en comprender las relaciones lineales entre diversas variables y la puntuación de productividad. Se observó que variables como las horas de sueño total, el ejercicio y la ingesta de cafeína presentaban correlaciones débiles con la productividad, sugiriendo, que, por sí solas, no logran predecir, de manera, lineal la productividad. 
+
+Para profundizar en el estudio, se analizaron gráficos de dispersión que representaban la relación entre "Exercise (mins/day)" y "Productivity Score", así como entre "Total Sleep Hours" y "Productivity Score". En ambos casos, se observó una falta de correlación lineal, reforzando la idea de que ni la cantidad de ejercicio ni la cantidad de sueño, por sí solas, son determinantes clave de la productividad en el trabajo. Estos resultados sugieren que otros factores podrían estar influyendo en la productividad.  
+
+En la segunda etapa, se aplicaron técnicas de normalización de datos para evaluar cambios en los valores de las variables y su impacto en la correlación. Al comparar la matriz de correlación normalizada con la matriz de correlación original, se nota que las correlaciones entre la productividad y el ejercicio, así como entre la productividad y las horas de sueño, se mantienen después de la normalización. Lo anterior, refuerza la idea de que estas variables no tienen una relación lineal fuerte con la productividad. Además, los valores de correlación no experimentaron cambios significativos que alteraran las conclusiones principales, lo que indica que las relaciones entre las variables son “robustas” y no se ven afectadas significativamente por la escala de los datos.  
+
+Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística con ElasticNet y validación cruzada para identificar las variables más relevantes en la predicción de la variable objetivo. El modelo ElasticNet seleccionó "Screen Time Before Bed (mins)" y "Total Sleep Hours" como las variables más importantes para predecir la productividad. Sin embargo, la precisión del modelo en el conjunto de prueba fue del 11%, lo que sugiere que, aunque estas variables tienen cierto impacto, el modelo lineal no captura completamente la relación. La baja precisión del modelo indica que se necesitan enfoques adicionales para mejorar la predicción de la variable objetivo.  
+
 
 ## 📌 Conclusiones
 

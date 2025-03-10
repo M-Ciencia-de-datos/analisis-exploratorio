@@ -20,7 +20,7 @@ A continuación, está la descripción de cada columna de la base de datos:
 El análisis realizado se hizo con el fin de identificar la característica que tuviera una mayor relación con la variable objetivo "Productivity Score", por lo que se empezó una revisión de la base de datos detectando que estamos frente a un problema de clasificación con variables no lineales, y no se cuentan con datos atípicos, nulos o faltantes.
 
 ## Importancia de las variables
-Teniendo en cuenta la diferente literatura, se observa que el sueño es fundamental para la salud humana, afectando el bienestar físico y la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes. y por ende la productividad.
+Teniendo en cuenta la diferente literatura, se observa que el sueño es fundamental para la salud humana, afectando el bienestar físico y la capacidad mental y cognitiva. Autores como Dement y Vaughan (1999), Van Dongen y otros (2003), Turner y otros (2007) demuestran que el sueño se relaciona con el desempeño cognitivo, la toma de decisiones, el razonamiento, la memoria, la solución de problemas, la atención e incluso los accidentes, y por ende la productividad.
 
 Después de identificar que las mejores características en nuestra base de datos son "Total Sleep Hours", y "Screen Time Before Bed (mins)", nos centraremos en el análisis de la columna "Total Sleep Hours".
 

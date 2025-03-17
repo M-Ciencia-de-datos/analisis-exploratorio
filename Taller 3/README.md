@@ -162,8 +162,9 @@ En la segunda etapa, se aplicaron técnicas de normalización de datos para eval
 Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística con ElasticNet y validación cruzada para identificar las variables más relevantes en la predicción de la variable objetivo. El modelo ElasticNet seleccionó "Screen Time Before Bed (mins)" y "Total Sleep Hours" como las variables más importantes para predecir la productividad. Sin embargo, la precisión del modelo en el conjunto de prueba fue del 11%, lo que sugiere que, aunque estas variables tienen cierto impacto, el modelo lineal no captura completamente la relación. La baja precisión del modelo indica que se necesitan enfoques adicionales para mejorar la predicción de la variable objetivo.
 
 ## Hipótesis
-Ho: No hay relación entre las horas de sueño y la productividad
-Ha: si existe alguna relación entre las horas de sueño y la productividad
+- Ho: No hay relación entre las horas de sueño y la productividad
+
+- Ha: si existe alguna relación entre las horas de sueño y la productividad
 
 ## Tabla de contingencia
 

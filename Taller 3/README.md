@@ -177,5 +177,6 @@ Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística
 
 ## 📌 Conclusiones
 
-1️⃣La relación entre los patrones de sueño y la productividad parece ser más compleja de lo que se suponía en un principio, se podría considerar incluir otras características relevantes (ej Hábitos alimenticios, entorno de trabajo, satisfacción laboral)
+1️⃣ La relación entre los patrones de sueño y la productividad parece ser más compleja de lo que se suponía en un principio, se podría considerar incluir otras características relevantes (ej Hábitos alimenticios, entorno de trabajo, satisfacción laboral)
+2️⃣ 
 

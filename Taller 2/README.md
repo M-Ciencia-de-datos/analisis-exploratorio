@@ -149,13 +149,6 @@ Se implementa una **regresión logística con ElasticNet y validación cruzada**
 
 ## Interpretacion
 
-<<<<<<< HEAD
-
-## 📌 Conclusiones
-
-1️⃣ **La correlación no siempre indica las mejores características**
-
-=======
 El análisis se divide en tres etapas. La primera etapa, se enfoca en comprender las relaciones lineales entre diversas variables y la puntuación de productividad. Se observó que variables como las horas de sueño total, el ejercicio y la ingesta de cafeína presentaban correlaciones débiles con la productividad, sugiriendo, que, por sí solas, no logran predecir, de manera lineal la productividad.
 
 Para profundizar en el estudio, se analizaron gráficos de dispersión que representaban la relación entre "Exercise (mins/day)" y "Productivity Score", así como entre "Total Sleep Hours" y "Productivity Score". En ambos casos, se observó una falta de correlación lineal, reforzando la idea de que ni la cantidad de ejercicio ni la cantidad de sueño, por sí solas, son determinantes clave de la productividad en el trabajo. Estos resultados sugieren que otros factores podrían estar influyendo en la productividad.
@@ -169,7 +162,6 @@ Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística
 1️⃣ **La correlación no siempre indica las mejores características**
 
 - Se debe identificar qué tipo de relación hay entre las variables para escoger el método de correlación que más se ajuste a los datos.
-  > > > > > > > dev
 - Aunque las variables con mayor correlación con la variable objetivo pueden ser candidatas para el modelo, **no significa que sean las más relevantes**.
 - La regularización en la regresión logística mostró que otras variables también pueden tener un impacto significativo, incluso si su correlación era menor.
 
@@ -204,7 +196,4 @@ Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística
 - Esto confirma la importancia de **no depender solo de la intuición o la correlación**, sino de probar diferentes enfoques para seleccionar las mejores características.
 
 🔎 **Conclusión general:**  
-<<<<<<< HEAD
-El análisis de correlación es un buen punto de partida, pero es fundamental utilizar técnicas como la **regresión con regularización** para validar la importancia real de cada variable. La normalización ayuda a mejorar la estabilidad numérica del modelo, pero no modifica el análisis de importancia de características. **Usar validación cruzada y preprocesamiento adecuado mejora la capacidad del modelo para generalizar a nuevos datos.** 🚀
-=======
 El análisis de correlación es un buen punto de partida, pero es fundamental utilizar técnicas como la **regresión con regularización** para validar la importancia real de cada variable. La normalización ayuda a mejorar la estabilidad numérica del modelo, pero no modifica el análisis de importancia de características. **Usar validación cruzada y preprocesamiento adecuado mejora la capacidad del modelo para generalizar su desempeño al contar nuevos datos.** 🚀

@@ -1,4 +1,4 @@
-# 🌙 Taller 2: Análisis Exploratorio Univariable 💤
+# 🌙 Taller 3: Análisis Exploratorio Bivariado 💤
 
 ## Integrantes:
 
@@ -164,47 +164,14 @@ En la segunda etapa, se aplicaron técnicas de normalización de datos para eval
 
 Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística con ElasticNet y validación cruzada para identificar las variables más relevantes en la predicción de la variable objetivo. El modelo ElasticNet seleccionó "Screen Time Before Bed (mins)" y "Total Sleep Hours" como las variables más importantes para predecir la productividad. Sin embargo, la precisión del modelo en el conjunto de prueba fue del 11%, lo que sugiere que, aunque estas variables tienen cierto impacto, el modelo lineal no captura completamente la relación. La baja precisión del modelo indica que se necesitan enfoques adicionales para mejorar la predicción de la variable objetivo.
 
+## Hipótesis
+
+## Tabla de contingencia
+
 ## 📌 Conclusiones
 
-1️⃣ **La correlación no siempre indica las mejores características**
+## interpretación resultados
 
-- Se debe identificar qué tipo de relación hay entre las variables para escoger el método de correlación que más se ajuste a los datos.
-  > > > > > > > dev
-- Aunque las variables con mayor correlación con la variable objetivo pueden ser candidatas para el modelo, **no significa que sean las más relevantes**.
-- La regularización en la regresión logística mostró que otras variables también pueden tener un impacto significativo, incluso si su correlación era menor.
-
-2️⃣ **La normalización no afecta el análisis realizado**
-
-- La transformación de los datos con **StandardScaler** y **MinMaxScaler** no cambió la relación entre variables.
-- La correlación entre las variables y la selección de características se mantuvieron consistentes antes y después de la normalización.
-
-3️⃣ **El uso de técnicas de regularización es clave para la selección de variables**
-
-- Aplicar **ElasticNet con validación cruzada** nos permitió ver qué variables realmente aportan información útil al modelo.
-- Algunas variables que parecían importantes por su correlación fueron descartadas por la regularización.
-
-4️⃣ **La validación cruzada ayuda a evitar el sobreajuste**
-
-- Usar **cross-validation (CV)** nos aseguró que los resultados no dependieran solo de un conjunto de datos específico.
-- Esto hizo que el modelo sea más **robusto y generalizable**.
-
-5️⃣ **El análisis exploratorio de datos es fundamental antes de modelar**
-
-- Visualizaciones como **pairplot (Seaborn)** y **boxplots interactivos (Plotly)** nos ayudaron a entender la distribución y relaciones de las variables.
-- Detectamos posibles **outliers** y patrones que podrían afectar la predicción.
-
-6️⃣ **El preprocesamiento influye en el desempeño del modelo**
-
-- Técnicas como la normalización y la eliminación de valores nulos o inconsistentes **mejoran la estabilidad del modelo**.
-- Un mal preprocesamiento puede afectar los coeficientes y la interpretación de la regresión logística.
-
-7️⃣ **No todas las variables tienen impacto en la predicción**
-
-- Algunas variables fueron eliminadas por el modelo debido a su coeficiente **cercano a 0** tras la regularización.
-- Esto confirma la importancia de **no depender solo de la intuición o la correlación**, sino de probar diferentes enfoques para seleccionar las mejores características.
-
-🔎 **Conclusión general:**  
-<<<<<<< HEAD
-El análisis de correlación es un buen punto de partida, pero es fundamental utilizar técnicas como la **regresión con regularización** para validar la importancia real de cada variable. La normalización ayuda a mejorar la estabilidad numérica del modelo, pero no modifica el análisis de importancia de características. **Usar validación cruzada y preprocesamiento adecuado mejora la capacidad del modelo para generalizar a nuevos datos.** 🚀
-=======
-El análisis de correlación es un buen punto de partida, pero es fundamental utilizar técnicas como la **regresión con regularización** para validar la importancia real de cada variable. La normalización ayuda a mejorar la estabilidad numérica del modelo, pero no modifica el análisis de importancia de características. **Usar validación cruzada y preprocesamiento adecuado mejora la capacidad del modelo para generalizar su desempeño al contar nuevos datos.** 🚀
+1️⃣ 
+2️⃣ 
+3️⃣ 

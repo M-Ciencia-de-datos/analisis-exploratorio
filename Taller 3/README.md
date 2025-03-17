@@ -161,10 +161,15 @@ Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística
 
 ## Tabla de contingencia
 
+| **Sleep Hours** | **Poor** | **Average** | **Good** | **Excelent** |
+| :-------------: | :------: | :---------: | :------: | :----------: |
+|     4.5-5.6     |   354    |     393     |   235    |     269      |
+|     5.6-6.9     |   366    |     373     |   250    |     275      |
+|     6.9-8.2     |   342    |     355     |   265    |     278      |
+|     8.2-9.5     |   366    |     334     |   268    |     277      |
+
 ## 📌 Conclusiones
 
-## interpretación resultados
-
-1️⃣ 
-2️⃣ 
-3️⃣ 
+1️⃣
+2️⃣
+3️⃣

@@ -17,6 +17,10 @@ A continuación, está la descripción de cada columna de la base de datos:
 
 ![Data](assets/Data_descrip.PNG)
 
+## Pregunta SMART
+
+¿Qué impacto tiene el total de horas de sueño en la productividad de los trabajadores?
+
 ## Selección de variables
 
 El análisis realizado se hizo con el fin de identificar la característica que tuviera una mayor relación con la variable objetivo "Productivity Score", por lo que se empezó una revisión de la base de datos detectando que estamos frente a un problema de clasificación con variables no lineales, y no se cuentan con datos atípicos, nulos o faltantes.

@@ -177,6 +177,6 @@ Por último, en la tercera etapa, se utilizó un modelo de Regresión Logística
 
 ## 📌 Conclusiones
 
-1️⃣ La relación entre los patrones de sueño y la productividad parece ser más compleja de lo que se suponía en un principio, se podría considerar incluir otras características relevantes (ej Hábitos alimenticios, entorno de trabajo, satisfacción laboral)
-2️⃣ 
+1️⃣ La relación entre los patrones de sueño y la productividad es más compleja de lo que se suponía inicialmente, ya que influyen múltiples factores más allá de la cantidad de horas dormidas. Aspectos como los hábitos alimenticios, el entorno de trabajo y la satisfacción laboral también pueden jugar un papel clave en el desempeño.
 
+2️⃣ Las horas de sueño, por sí solas, no determinan la productividad; la calidad del descanso, la organización y la gestión del estrés son factores igualmente relevantes. Mientras algunas personas pueden rendir bien con menos horas si optimizan su tiempo, otras no son productivas a pesar de dormir más si su descanso es deficiente.
